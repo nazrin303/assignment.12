@@ -6,6 +6,7 @@ import { FaHeart } from "react-icons/fa6";
 
 function Contact() {
   return (
+    
     <div className="p-0">
       <Form className='formclr text-white'>
         <h1 className='text-center p-3 '>Contact</h1>
@@ -35,7 +36,7 @@ function Contact() {
       
       </Form>
       
-      <footer className="bg-dark text-white py-3 mt-3 w-100 position-realtive">
+      <footer className="bg-dark text-white py-3  mt-3 m-0 p-0">
       <div className='d-flex justify-content-center text-white bg-dark w-100 '>
           <p>© 2024 Cristiano Ronaldo Portfolio | Designed with <FaHeart className='text-danger' />
            </p>
@@ -43,6 +44,7 @@ function Contact() {
       
       </footer>
       </div>
+      
     
     
 
